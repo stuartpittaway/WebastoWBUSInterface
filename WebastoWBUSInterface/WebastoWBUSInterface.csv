@@ -1,0 +1,36 @@
+"Source:","E:\source\WebastoWBUSInterface\WebastoWBUSInterface\WebastoWBUSInterface.sch"
+"Date:","24/11/2019 17:49:04"
+"Tool:","Eeschema (5.1.0)-1"
+"Generator:","C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py"
+"Component Count:","14"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","D1","LED","Device:LED","LEDs:LED_D3.0mm","~"
+"","","J1","FTDI Interface","Connector_Generic:Conn_01x06","TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_6pol","~"
+"","","J2","WBUS","Connector:Conn_01x03_Female","TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_3pol","~"
+"","","Q1","BC548","Transistor_BJT:BC548","Package_TO_SOT_THT:TO-92_Inline","http://www.fairchildsemi.com/ds/BC/BC547.pdf"
+"","","Q2","BC548","Transistor_BJT:BC548","Package_TO_SOT_THT:TO-92_Inline","http://www.fairchildsemi.com/ds/BC/BC547.pdf"
+"","","Q3","BC548","Transistor_BJT:BC548","Package_TO_SOT_THT:TO-92_Inline","http://www.fairchildsemi.com/ds/BC/BC547.pdf"
+"","","Q4","BC557","Transistor_BJT:BC557","Package_TO_SOT_THT:TO-92_Inline","http://www.fairchildsemi.com/ds/BC/BC557.pdf"
+"","","R1","10K","Device:R","Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
+"","","R3","1K","Device:R","Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
+"","","R5","1K","Device:R","Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
+"","","R7","10K","Device:R","Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
+"","","R8","10K","Device:R","Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
+"","","R9","1K","Device:R","Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
+"","","R10","10K","Device:R","Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","1","D1","LED","Device:LED","LEDs:LED_D3.0mm","~"
+"2","1","J1","FTDI Interface","Connector_Generic:Conn_01x06","TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_6pol","~"
+"3","1","J2","WBUS","Connector:Conn_01x03_Female","TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_3pol","~"
+"4","3","Q1, Q2, Q3","BC548","Transistor_BJT:BC548","Package_TO_SOT_THT:TO-92_Inline","http://www.fairchildsemi.com/ds/BC/BC547.pdf"
+"5","1","Q4","BC557","Transistor_BJT:BC557","Package_TO_SOT_THT:TO-92_Inline","http://www.fairchildsemi.com/ds/BC/BC557.pdf"
+"6","4","R1, R7, R8, R10","10K","Device:R","Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
+"7","3","R3, R5, R9","1K","Device:R","Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal","~"
