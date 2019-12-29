@@ -1,0 +1,6 @@
+"Comment","Designator","Footprint","LCSC Part #"
+"LED","D1","LED_0603_HandSoldering","C72043"
+"S9013","Q3,Q2,Q1","SOT-23","C6749"
+"S9015","Q4","SOT-23","C2149"
+"10K","R1,R8,R10,R7","R_0805_HandSoldering","C17414"
+"1K","R3,R5,R9","R_0805_HandSoldering","C17513"

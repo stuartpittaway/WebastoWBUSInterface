@@ -14,50 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_01x06 J1
-U 1 1 5DDAB6D2
-P 2220 4230
-F 0 "J1" H 2138 3705 50  0000 C CNN
-F 1 "FTDI Interface" H 2138 3796 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x06_Pitch2.54mm" H 2220 4230 50  0001 C CNN
-F 3 "~" H 2220 4230 50  0001 C CNN
-	1    2220 4230
-	-1   0    0    1   
-$EndComp
-$Comp
-L Transistor_BJT:BC548 Q1
-U 1 1 5DDAD1CA
-P 2580 3380
-F 0 "Q1" H 2510 3220 50  0000 L CNN
-F 1 "BC548" H 2400 3540 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2780 3305 50  0001 L CIN
-F 3 "https://en.wikipedia.org/wiki/BC548" H 2580 3380 50  0001 L CNN
-	1    2580 3380
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 5DDAE86F
-P 3190 3210
-F 0 "R7" H 3260 3256 50  0000 L CNN
-F 1 "10K" H 3260 3165 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3120 3210 50  0001 C CNN
-F 3 "~" H 3190 3210 50  0001 C CNN
-	1    3190 3210
-	-1   0    0    1   
-$EndComp
-$Comp
-L Transistor_BJT:BC557 Q4
-U 1 1 5DDAF0CE
-P 4270 3070
-F 0 "Q4" H 4461 3024 50  0000 L CNN
-F 1 "BC557" H 4461 3115 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 4470 2995 50  0001 L CIN
-F 3 "http://www.farnell.com/datasheets/296678.pdf" H 4270 3070 50  0001 L CNN
-	1    4270 3070
-	-1   0    0    1   
-$EndComp
 NoConn ~ 2420 4030
 NoConn ~ 2420 4430
 Wire Wire Line
@@ -68,28 +24,6 @@ Wire Wire Line
 	2930 3130 2830 3130
 Wire Wire Line
 	2680 3130 2680 3180
-$Comp
-L Device:R R9
-U 1 1 5DDB1CC6
-P 3500 3140
-F 0 "R9" H 3570 3186 50  0000 L CNN
-F 1 "1K" H 3570 3095 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3430 3140 50  0001 C CNN
-F 3 "~" H 3500 3140 50  0001 C CNN
-	1    3500 3140
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5DDB243E
-P 3500 3570
-F 0 "R5" H 3570 3616 50  0000 L CNN
-F 1 "1K" H 3570 3525 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3430 3570 50  0001 C CNN
-F 3 "~" H 3500 3570 50  0001 C CNN
-	1    3500 3570
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3500 3290 3500 3360
 $Comp
@@ -103,17 +37,6 @@ F 3 "" H 3500 4180 50  0001 C CNN
 	1    3500 4180
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:LED D1
-U 1 1 5DDB40BB
-P 3500 3930
-F 0 "D1" V 3539 3813 50  0000 R CNN
-F 1 "LED" V 3448 3813 50  0000 R CNN
-F 2 "LEDs:LED_D3.0mm" H 3500 3930 50  0001 C CNN
-F 3 "~" H 3500 3930 50  0001 C CNN
-	1    3500 3930
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	3500 3720 3500 3780
 Wire Wire Line
@@ -121,32 +44,10 @@ Wire Wire Line
 Connection ~ 3500 3360
 Wire Wire Line
 	3500 3360 3500 3420
-$Comp
-L Connector:Conn_01x03_Female J2
-U 1 1 5DDB7E72
-P 5760 3280
-F 0 "J2" H 5788 3306 50  0000 L CNN
-F 1 "WBUS" H 5788 3215 50  0000 L CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm" H 5760 3280 50  0001 C CNN
-F 3 "~" H 5760 3280 50  0001 C CNN
-	1    5760 3280
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4170 2870 4910 2870
 Wire Wire Line
 	5560 2870 5560 3180
-$Comp
-L Device:R R10
-U 1 1 5DDB93E8
-P 4620 3380
-F 0 "R10" V 4413 3380 50  0000 C CNN
-F 1 "10K" V 4504 3380 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4550 3380 50  0001 C CNN
-F 3 "~" H 4620 3380 50  0001 C CNN
-	1    4620 3380
-	0    1    1    0   
-$EndComp
 Text GLabel 5280 3380 3    50   Input ~ 0
 WBUS
 $Comp
@@ -166,17 +67,6 @@ Wire Wire Line
 	5500 3280 5500 3070
 Wire Wire Line
 	5500 3070 5360 3070
-$Comp
-L Device:R R3
-U 1 1 5DDBEBCF
-P 4910 3070
-F 0 "R3" H 4840 3024 50  0000 R CNN
-F 1 "1K" H 4840 3115 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4840 3070 50  0001 C CNN
-F 3 "~" H 4910 3070 50  0001 C CNN
-	1    4910 3070
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4910 2920 4910 2870
 Connection ~ 4910 2870
@@ -188,17 +78,6 @@ Wire Wire Line
 	2500 4230 2500 4700
 Wire Wire Line
 	2500 4700 4040 4700
-$Comp
-L Device:R R8
-U 1 1 5DDC432F
-P 3190 3890
-F 0 "R8" H 3120 3844 50  0000 R CNN
-F 1 "10K" H 3120 3935 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3120 3890 50  0001 C CNN
-F 3 "~" H 3190 3890 50  0001 C CNN
-	1    3190 3890
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	3190 4040 3190 4430
 Wire Wire Line
@@ -226,30 +105,8 @@ Wire Wire Line
 	4440 4430 4440 4500
 Wire Wire Line
 	4340 4500 4440 4500
-$Comp
-L Transistor_BJT:BC548 Q2
-U 1 1 5DDC16C0
-P 4240 4700
-F 0 "Q2" H 4431 4746 50  0000 L CNN
-F 1 "BC548" H 4431 4655 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 4440 4625 50  0001 L CIN
-F 3 "https://en.wikipedia.org/wiki/BC548" H 4240 4700 50  0001 L CNN
-	1    4240 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4830 4500 4890 4500
-$Comp
-L Device:R R1
-U 1 1 5DDC0AF1
-P 4680 4500
-F 0 "R1" V 4473 4500 50  0000 C CNN
-F 1 "10K" V 4564 4500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4610 4500 50  0001 C CNN
-F 3 "~" H 4680 4500 50  0001 C CNN
-	1    4680 4500
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 5DDBDF02
@@ -259,17 +116,6 @@ F 1 "GND" H 5195 4777 50  0000 C CNN
 F 2 "" H 5190 4950 50  0001 C CNN
 F 3 "" H 5190 4950 50  0001 C CNN
 	1    5190 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC548 Q3
-U 1 1 5DDBCE8A
-P 5090 4500
-F 0 "Q3" H 5281 4546 50  0000 L CNN
-F 1 "BC548" H 5281 4455 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5290 4425 50  0001 L CIN
-F 3 "https://en.wikipedia.org/wiki/BC548" H 5090 4500 50  0001 L CNN
-	1    5090 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -347,4 +193,181 @@ Wire Wire Line
 	5190 4700 5190 4950
 Wire Wire Line
 	4340 4900 4340 4960
+$Comp
+L Transistor_BJT:BC548 Q3
+U 1 1 5DDBCE8A
+P 5090 4500
+F 0 "Q3" H 5281 4546 50  0000 L CNN
+F 1 "S9013" H 5281 4455 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5290 4425 50  0001 L CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-S9013_C6749.pdf" H 5090 4500 50  0001 L CNN
+F 4 "C6749" H 5090 4500 50  0001 C CNN "JLCPCBPartNumber"
+F 5 "S9013" H 0   0   50  0001 C CNN "Part"
+	1    5090 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5DDC0AF1
+P 4680 4500
+F 0 "R1" V 4473 4500 50  0000 C CNN
+F 1 "10K" V 4564 4500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4610 4500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1001T5E_C17513.pdf" H 4680 4500 50  0001 C CNN
+F 4 "C17414" V 4680 4500 50  0001 C CNN "JLCPCBPartNumber"
+F 5 "0805W8F1002T5E" H 0   0   50  0001 C CNN "Part"
+	1    4680 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC548 Q2
+U 1 1 5DDC16C0
+P 4240 4700
+F 0 "Q2" H 4431 4746 50  0000 L CNN
+F 1 "S9013" H 4431 4655 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4440 4625 50  0001 L CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-S9013_C6749.pdf" H 4240 4700 50  0001 L CNN
+F 4 "C6749" H 4240 4700 50  0001 C CNN "JLCPCBPartNumber"
+F 5 "S9013" H 0   0   50  0001 C CNN "Part"
+	1    4240 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5DDC432F
+P 3190 3890
+F 0 "R8" H 3120 3844 50  0000 R CNN
+F 1 "10K" H 3120 3935 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3120 3890 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1001T5E_C17513.pdf" H 3190 3890 50  0001 C CNN
+F 4 "0805W8F1002T5E" H 3190 3890 50  0001 C CNN "Part"
+F 5 "C17414" H 3190 3890 50  0001 C CNN "JLCPCBPartNumber"
+	1    3190 3890
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5DDBEBCF
+P 4910 3070
+F 0 "R3" H 4840 3024 50  0000 R CNN
+F 1 "1K" H 4840 3115 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4840 3070 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1001T5E_C17513.pdf" H 4910 3070 50  0001 C CNN
+F 4 "C17513" H 4910 3070 50  0001 C CNN "JLCPCBPartNumber"
+F 5 "0805W8F1001T5E" H 0   0   50  0001 C CNN "Part"
+	1    4910 3070
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5DDB93E8
+P 4620 3380
+F 0 "R10" V 4413 3380 50  0000 C CNN
+F 1 "10K" V 4504 3380 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4550 3380 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1001T5E_C17513.pdf" H 4620 3380 50  0001 C CNN
+F 4 "C17414" V 4620 3380 50  0001 C CNN "JLCPCBPartNumber"
+F 5 "0805W8F1002T5E" H 0   0   50  0001 C CNN "Part"
+	1    4620 3380
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J2
+U 1 1 5DDB7E72
+P 5760 3280
+F 0 "J2" H 5788 3306 50  0000 L CNN
+F 1 "WBUS" H 5788 3215 50  0000 L CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm" H 5760 3280 50  0001 C CNN
+F 3 "~" H 5760 3280 50  0001 C CNN
+	1    5760 3280
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5DDB40BB
+P 3500 3930
+F 0 "D1" V 3539 3813 50  0000 R CNN
+F 1 "LED" V 3448 3813 50  0000 R CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 3500 3930 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 3500 3930 50  0001 C CNN
+F 4 "C72043" V 3500 3930 50  0001 C CNN "JLCPCBPartNumber"
+	1    3500 3930
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5DDB243E
+P 3500 3570
+F 0 "R5" H 3570 3616 50  0000 L CNN
+F 1 "1K" H 3570 3525 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3430 3570 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1001T5E_C17513.pdf" H 3500 3570 50  0001 C CNN
+F 4 "C17513" H 3500 3570 50  0001 C CNN "JLCPCBPartNumber"
+F 5 "0805W8F1001T5E" H 0   0   50  0001 C CNN "Part"
+	1    3500 3570
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5DDB1CC6
+P 3500 3140
+F 0 "R9" H 3570 3186 50  0000 L CNN
+F 1 "1K" H 3570 3095 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3430 3140 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1001T5E_C17513.pdf" H 3500 3140 50  0001 C CNN
+F 4 "C17513" H 3500 3140 50  0001 C CNN "JLCPCBPartNumber"
+F 5 "0805W8F1001T5E" H 0   0   50  0001 C CNN "Part"
+	1    3500 3140
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC557 Q4
+U 1 1 5DDAF0CE
+P 4270 3070
+F 0 "Q4" H 4461 3024 50  0000 L CNN
+F 1 "S9015" H 4461 3115 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 4470 2995 50  0001 L CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-S9015_C2149.pdf" H 4270 3070 50  0001 L CNN
+F 4 "C2149" H 4270 3070 50  0001 C CNN "JLCPCBPartNumber"
+F 5 "S9015" H 0   0   50  0001 C CNN "Part"
+	1    4270 3070
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5DDAE86F
+P 3190 3210
+F 0 "R7" H 3260 3256 50  0000 L CNN
+F 1 "10K" H 3260 3165 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3120 3210 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1001T5E_C17513.pdf" H 3190 3210 50  0001 C CNN
+F 4 "C17414" H 3190 3210 50  0001 C CNN "JLCPCBPartNumber"
+F 5 "0805W8F1002T5E" H 0   0   50  0001 C CNN "Part"
+	1    3190 3210
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J1
+U 1 1 5DDAB6D2
+P 2220 4230
+F 0 "J1" H 2138 3705 50  0000 C CNN
+F 1 "FTDI Interface" H 2138 3796 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x06_Pitch2.54mm" H 2220 4230 50  0001 C CNN
+F 3 "~" H 2220 4230 50  0001 C CNN
+	1    2220 4230
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BC548 Q1
+U 1 1 5DDAD1CA
+P 2580 3380
+F 0 "Q1" H 2510 3220 50  0000 L CNN
+F 1 "S9013" H 2400 3540 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2780 3305 50  0001 L CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-S9015_C2149.pdf" H 2580 3380 50  0001 L CNN
+F 4 "C6749" H 2580 3380 50  0001 C CNN "JLCPCBPartNumber"
+F 5 "S9013" H 0   0   50  0001 C CNN "Part"
+	1    2580 3380
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
