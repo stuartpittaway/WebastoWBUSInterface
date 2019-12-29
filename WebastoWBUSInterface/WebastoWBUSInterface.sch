@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:WebastoWBUSInterface-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -31,7 +32,7 @@ P 2580 3380
 F 0 "Q1" H 2510 3220 50  0000 L CNN
 F 1 "BC548" H 2400 3540 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2780 3305 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 2580 3380 50  0001 L CNN
+F 3 "https://en.wikipedia.org/wiki/BC548" H 2580 3380 50  0001 L CNN
 	1    2580 3380
 	1    0    0    -1  
 $EndComp
@@ -41,7 +42,7 @@ U 1 1 5DDAE86F
 P 3190 3210
 F 0 "R7" H 3260 3256 50  0000 L CNN
 F 1 "10K" H 3260 3165 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3120 3210 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3120 3210 50  0001 C CNN
 F 3 "~" H 3190 3210 50  0001 C CNN
 	1    3190 3210
 	-1   0    0    1   
@@ -53,7 +54,7 @@ P 4270 3070
 F 0 "Q4" H 4461 3024 50  0000 L CNN
 F 1 "BC557" H 4461 3115 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 4470 2995 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 4270 3070 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/296678.pdf" H 4270 3070 50  0001 L CNN
 	1    4270 3070
 	-1   0    0    1   
 $EndComp
@@ -73,7 +74,7 @@ U 1 1 5DDB1CC6
 P 3500 3140
 F 0 "R9" H 3570 3186 50  0000 L CNN
 F 1 "1K" H 3570 3095 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3430 3140 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3430 3140 50  0001 C CNN
 F 3 "~" H 3500 3140 50  0001 C CNN
 	1    3500 3140
 	1    0    0    -1  
@@ -84,7 +85,7 @@ U 1 1 5DDB243E
 P 3500 3570
 F 0 "R5" H 3570 3616 50  0000 L CNN
 F 1 "1K" H 3570 3525 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3430 3570 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3430 3570 50  0001 C CNN
 F 3 "~" H 3500 3570 50  0001 C CNN
 	1    3500 3570
 	1    0    0    -1  
@@ -126,7 +127,7 @@ U 1 1 5DDB7E72
 P 5760 3280
 F 0 "J2" H 5788 3306 50  0000 L CNN
 F 1 "WBUS" H 5788 3215 50  0000 L CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_1x03_Pitch2.54mm" H 5760 3280 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-3_P5.08mm" H 5760 3280 50  0001 C CNN
 F 3 "~" H 5760 3280 50  0001 C CNN
 	1    5760 3280
 	1    0    0    -1  
@@ -141,7 +142,7 @@ U 1 1 5DDB93E8
 P 4620 3380
 F 0 "R10" V 4413 3380 50  0000 C CNN
 F 1 "10K" V 4504 3380 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4550 3380 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4550 3380 50  0001 C CNN
 F 3 "~" H 4620 3380 50  0001 C CNN
 	1    4620 3380
 	0    1    1    0   
@@ -171,7 +172,7 @@ U 1 1 5DDBEBCF
 P 4910 3070
 F 0 "R3" H 4840 3024 50  0000 R CNN
 F 1 "1K" H 4840 3115 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4840 3070 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4840 3070 50  0001 C CNN
 F 3 "~" H 4910 3070 50  0001 C CNN
 	1    4910 3070
 	-1   0    0    1   
@@ -193,7 +194,7 @@ U 1 1 5DDC432F
 P 3190 3890
 F 0 "R8" H 3120 3844 50  0000 R CNN
 F 1 "10K" H 3120 3935 50  0000 R CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3120 3890 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3120 3890 50  0001 C CNN
 F 3 "~" H 3190 3890 50  0001 C CNN
 	1    3190 3890
 	-1   0    0    1   
@@ -232,7 +233,7 @@ P 4240 4700
 F 0 "Q2" H 4431 4746 50  0000 L CNN
 F 1 "BC548" H 4431 4655 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 4440 4625 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 4240 4700 50  0001 L CNN
+F 3 "https://en.wikipedia.org/wiki/BC548" H 4240 4700 50  0001 L CNN
 	1    4240 4700
 	1    0    0    -1  
 $EndComp
@@ -244,7 +245,7 @@ U 1 1 5DDC0AF1
 P 4680 4500
 F 0 "R1" V 4473 4500 50  0000 C CNN
 F 1 "10K" V 4564 4500 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4610 4500 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4610 4500 50  0001 C CNN
 F 3 "~" H 4680 4500 50  0001 C CNN
 	1    4680 4500
 	0    1    1    0   
@@ -267,7 +268,7 @@ P 5090 4500
 F 0 "Q3" H 5281 4546 50  0000 L CNN
 F 1 "BC548" H 5281 4455 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5290 4425 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 5090 4500 50  0001 L CNN
+F 3 "https://en.wikipedia.org/wiki/BC548" H 5090 4500 50  0001 L CNN
 	1    5090 4500
 	1    0    0    -1  
 $EndComp
